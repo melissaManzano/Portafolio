@@ -1,0 +1,230 @@
+<html>
+<head>
+    <meta charset= "utf-8" />  
+
+    <!-- Desarrollando una página con estilo  -->
+
+<title> Portafolio de Trabajo de Melissa </title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body   bgcolor="#c9e8dd" text="#000000" link="#009987" vlink="#56008c" alink="#998c7c"><!-- background="Image/Fondo montaña.jpg"  -->
+<section>
+    <div>
+
+<h1  class="titulo_bienvenida"> <center> Portafolio de trabajo de Melissa </center></h1>
+
+<hr>
+ Soy universitaria del Instituto Tecnológico de Pachuca, estudio la carrera de Ingeniería en Tecnologías de la 
+ Información y Comunicaciones, al concluir mis estudios me gustaría dedicarme al area de maquetado y diseño de aplicaciones, además del 
+ area de Bases de datos.
+</div>
+
+<div style="font-size: 16px;">
+<p> Soy un texto :D </p>
+
+</div>
+</section>
+
+
+<section>
+
+<div class="display-block">
+<div class="cajas_1"> ELEMENTO 1 </div>  
+<div class="cajas_2"> ELEMENTO 2 </div>  
+<div class="cajas_3"> ELEMENTO 3 </div>  
+<div class="cajas_4"> ELEMENTO 4 </div>  
+
+
+</div>
+
+</section>
+
+<br>
+<br>
+
+<section>
+
+    <div>
+        <div class="cajas_1 display_inline"> ELEMENTO 1 </div>  
+        <div class="cajas_2 display_inline"> ELEMENTO 2 </div>  
+        <div class="cajas_3 display_inline"> ELEMENTO 3 </div>  
+        <div class="cajas_4 display_inline"> ELEMENTO 4 </div> 
+
+    </div>
+</section>
+
+<br>
+<br>
+
+<section>
+<div>
+<div> Soy un texto normal </div>
+<div class="fuente_p"> Soy un texto personalizado  </div>
+
+</div>
+</section>
+
+
+ <br> 
+ <br> 
+
+ <b>HOLA </b> <!-- Negritas -->
+ <br> 
+<i> HOLA </i> <!--  -->
+
+
+<ul>
+    <h2> Cualidades </h2>
+    <li> Disciplinada
+    <li> Responsable
+    <li> Ordenada
+    <li> Trabajo en equipo              
+
+</ul>
+
+<br>
+
+<ol>
+<h2> Habilidades </h2>
+
+    <li> Conocimiento de al arquitectura de aplicaciones
+    <li> Estructurado de bases de datos en MySQL
+      
+</ol>
+
+<br>
+
+<!-- TAREA: en aficiones combinacion de lista ordenada y desordenada  -->
+
+
+<!-- TAREA : 5 proyectos más importantes de nuestra carrera junto con sus imagenes en IA Adobe Firefly -->
+
+<A href="mailto:l23200168@pachuca.tecnm.mx"> l23200168@pachuca.tecnm.mx</A>
+<br>
+<br>
+<table border="5" cellspacing="15" cellpadding="20">
+    <caption align="top"> Mis proyectos</caption>
+    <tr>
+        <td>
+            <div class="image-container">
+                <img src="Image/B.D.jpg" alt="Base de datos" width="120" height="94" onclick="toggleInfo('info1')">
+                <div id="info1" class="info-box">
+                    <strong>¿Qué lo hace especial?</strong>
+                    <p> Fue la primera vez que ayudé a armar na base de datos de manera profesional </p>
+                    <strong>¿De qué se trata?</strong>
+                    <p> Realizamos el maquetado de una base de datos que analizaba los resultados de los números obtenidos en las redes sociales de una empresa </p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="image-container">
+                <img src="Image/App movil.jpg" alt="App móvil" width="120" height="94" onclick="toggleInfo('info2')">
+                <div id="info2" class="info-box">
+                    <strong>¿Qué lo hace especial?</strong>
+                    <p> Fue el primer acercamiento que tuvimos en el area del desarrollo móvil </p>
+                    <strong>¿De qué se trata?</strong>
+                    <p> Una aplicación que se encarga de calcular dósis de medicamentos para el uso Médico </p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="image-container">
+                <img src="Image/microprocesador.jpg" alt="Microprocesador" width="120" height="94" onclick="toggleInfo('info3')">
+                <div id="info3" class="info-box">
+                    <strong>¿Qué lo hace especial?</strong>
+                    <p> Fue un proyecto muy interesante de realizar junto a uno de los profesores del área de electrónica </p>
+                    <strong>¿De qué se trata?</strong>
+                    <p> Realizar un manual y un programa que le permitiera a los alumnos comprender de mejor forma el uso y la composición de un microprocesador</p>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+<section> 
+<h3> Videos divertidos </h3>
+
+<figure>
+    <video controls preload="auto">
+<source src="./Image/invideo-ai-1080 ¡Descubre el Poder de las TICs en tu Vid 2025-03-28.mp4"  width="100" height="60">
+
+    </video>
+</figure>
+
+</section>
+
+
+ <script>
+    function toggleInfo(id) {
+        const box = document.getElementById(id);
+        box.style.display = (box.style.display === 'block') ? 'none' : 'block';
+    }
+</script>
+
+
+<section>
+
+    <form id="form">
+        <div class="field">
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="field">
+          <label for="from_name">Remitente</label>
+          <input type="text" name="from_name" id="from_name">
+        </div>
+        <div class="field">
+          <label for="reply_to">Responder a</label>
+          <input type="text" name="reply_to" id="reply_to">
+        </div>
+        <div class="field">
+          <label for="message">Mensaje</label>
+          <input type="text" name="message" id="message">
+        </div>
+        <div class="field">
+          <label for="email">Correo electrónico</label>
+          <input type="text" name="email" id="email">
+        </div>
+      
+        <input type="submit" id="button" value="Enviar correo">
+      </form>
+    
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      <script>
+        emailjs.init('tHbntfDxgsG6po3NR');
+      </script>
+      <script src="script.js"></script>
+
+
+
+
+
+
+</section>
+
+
+
+</body>
+
+<br> 
+<br> 
+
+<a href="https://www.facebook.com/Meli.malu.17?locale=es_LA"> Facebook </a>
+<br>
+<a href="https://www.linkedin.com/in/melissa-manzano-luna-465b10301/"> Linkedin </a>
+
+<footer>
+    <p> Tecnológico Nacional de México campus Pachuca - Programación Web - Mi pagina - Proyecto individual Tema 3 - Claudia Melissa Manzano Luna</p>  
+</footer>
+</footer>
+
+
+
+
+</html>

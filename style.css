@@ -1,0 +1,147 @@
+.nombre_clase {
+
+    color: red;
+}
+
+.nombre_clase .titulo_1{
+    background-color: blue;
+}
+
+
+.font_sizeXL {
+    font-size: 30px;  
+}
+
+#nombre_id{
+    color: red;
+}
+
+.titulo_bienvenida{
+    color: blue; 
+}
+
+.titulo_bienvenida ::first-letter{
+    color:aqua ;
+}
+
+p {
+    font-size: 2em;
+}
+
+.cajas_1  {
+    background-color: red;
+    height: 150px;
+    width: 300px;
+}
+
+.cajas_2  {
+    background-color: blue;
+    height: 150px;
+    width: 300px;
+}
+
+.cajas_3  {
+    background-color: red;
+    height: 150px;
+    width: 300px;
+}
+
+.cajas_4  {
+    background-color: blue;
+    height: 150px;
+    width: 300px;
+}
+
+/* div {
+    display: block;
+} */
+
+.display_inline {
+    display: inline;
+}
+
+:root {
+    --primary-color:#f9827f; 
+    --main-font: Amaranth, sans-serif;  
+}
+
+
+.fuente_p {
+    font-family: var(--main-font);
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image-container img {
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+.info-box {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+form {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .field {
+    margin-bottom: 20px;
+  }
+  
+  .field label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 6px;
+  }
+  
+  .field input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4460AA;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3a5095;
+  }
+  
